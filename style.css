@@ -1,0 +1,117 @@
+@font-face {
+    font-family:Montserrat;
+    src: url(MyFonts/static/Montserrat-SemiBold.ttf) ;
+}
+@font-face {
+    font-family:Fraunces;
+    src: url(MyFonts/static/Fraunces_9pt/Fraunces_9pt-Bold.ttf) ;
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: bisque;
+}
+.img{
+    height: 67.0%;
+    position: absolute;
+    top: 15%;
+    margin-left: 25%;
+    width: 20%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+div{ 
+     background-color: white;
+    position: absolute;
+    height: 408px;
+    width: 270px;
+    margin-left: 45%;
+    top: 15%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+h5{
+  color:darkgrey;
+  position: absolute;
+  top: 7%;
+  margin-left: 10%;
+  font-family:Montserrat;
+  font-weight: 700;
+} 
+h1{
+    position: absolute;
+    top: 15%;
+    margin-left: 10%;
+    font-family: Fraunces;
+    font-weight: 700;
+}
+.content{
+    position: absolute;
+    top: 45%;
+    margin-left: 10%;
+    font-size: 14px;
+    font-family:  Montserrat;
+}
+.promoprice{
+    top: 70%;
+    margin-left: 10%;
+    color: rgb(18, 70, 38);
+}
+.price{
+    position: absolute;
+    top: 73%;
+    margin-left: 63%;
+}
+button{
+    position: absolute;
+    background-color: rgb(15, 75, 42);
+    color: white;
+    top: 85%;
+    margin-left: 10%;
+    width: 80%;
+    height: 10%;
+    border-radius: 5px;
+    border-right : none;
+    border-top : none;
+    border-bottom : none;
+    border-left : none;
+} 
+.fa-cart-shopping{
+    position: absolute;
+    top: 88%;
+    margin-left: 29%;
+    color: white;
+}
+@media  only screen and (max-width: 600px){
+    .img{
+     height:30% ;
+     width: 90%;
+     right: 5%;
+     top: 2%;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 0%;
+     border-bottom-right-radius: 0%;
+    }
+    div{
+     margin-top: 29%;
+     right: 5%;
+     min-height: 65%;
+     min-width: 90%;
+     border-top-left-radius: 0%;
+     border-top-right-radius: 0%;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+    }
+    .content{
+        font-family: Montserrat;
+        top: 39%;
+        font-size: 19px;
+    }
+ }
+
+
+    
